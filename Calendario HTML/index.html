@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>Calendario</title>
 </head>
 <body>
     <header>
+        <div id="titulo">
         <h1>¡RESERVA TU VUELO!</h1>
-        <p>A continuación ingreas los datos de salida y llegada de tu vuelo.</p>
+          <div id="subtitulo">
+           <h2>Ingresa las fechas de salida y de llegada</h2>
+          </div>
+    </div>
     </header>
     <main>
       <!-- <form action="">
@@ -30,17 +35,19 @@
             <input type="submit">
         </label>
       </form> -->
-      <form action="">
-          <label for="salida">
-              <span><b>Datos de Salida</b></span>
-              <input type="datetime-local" id="salida" name="calendario">
-          </label>
-          <label for="llegada">
-            <span><b>Datos de Llegada</b></span>
-            <input type="datetime-local" id="llegada" name="calendario">
-            <input type="submit">
-        </label>
-      </form>
+      <div id="formulario">
+        <form action="">
+            <label for="salida">
+                <span><b>Datos de Salida</b></span>
+                <input type="datetime-local" id="salida" name="calendario">
+            </label>
+            <label for="llegada">
+              <span><b>Datos de Llegada</b></span>
+              <input type="datetime-local" id="llegada" name="calendario">
+              <input type="submit">
+            </label>
+        </form>
+      </div>
     </main>
     <footer></footer>
 
