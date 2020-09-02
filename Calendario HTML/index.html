@@ -7,7 +7,8 @@
 </head>
 <body>
     <header>
-
+        <h1>¡RESERVA TU VUELO!</h1>
+        <p>A continuación ingreas los datos de salida y llegada de tu vuelo.</p>
     </header>
     <main>
       <!-- <form action="">
@@ -30,11 +31,15 @@
         </label>
       </form> -->
       <form action="">
-          <label for="calendario">
-              <span>Calendario</span>
-              <input type="datetime-local" id="calendario" name="calendario">
-              <input type="submit">
+          <label for="salida">
+              <span><b>Datos de Salida</b></span>
+              <input type="datetime-local" id="salida" name="calendario">
           </label>
+          <label for="llegada">
+            <span><b>Datos de Llegada</b></span>
+            <input type="datetime-local" id="llegada" name="calendario">
+            <input type="submit">
+        </label>
       </form>
     </main>
     <footer></footer>
