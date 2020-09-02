@@ -1,0 +1,28 @@
+body
+{
+    background: darkcyan;
+    color: #ffffff;
+}
+
+#titulo
+{
+    color: #ff7d35;
+    font-weight: bold;
+    text-align: center;
+}
+
+#subtitulo
+{
+    color: #ffffff;
+    font-family: "bebas-light";
+}
+
+#formulario
+{
+    width: 70%;
+    background: #ffffff;
+    text-align: center;
+    color: black;
+    margin: 0%;
+    padding: 1em;
+}
