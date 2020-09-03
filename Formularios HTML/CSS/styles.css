@@ -1,0 +1,92 @@
+body
+{
+    background: #f2f2f2;
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+
+    padding-top: 80px;
+}
+
+header
+{
+    background: #333;
+    color: white;
+    height: 80px;
+
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#header
+{
+    float: left;
+    padding: 15px 0 0 20px;
+}
+
+#logo-header .logo-w
+{
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .texto-w
+{
+    display: block;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: #999;
+}
+
+p
+{
+    margin: 0 0 1.5em 0;
+}
+
+#p1
+{
+
+}
+
+h1
+{
+    text-align: center;
+}
+
+main
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#main
+{
+    padding: 40px;
+}
+
+#formulario
+{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+footer
+{
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.7em;
+    text-align: center;
+
+}
