@@ -7,15 +7,13 @@
         <title>Formularios</title>
     </head>
     <body>
-        <header id="header">
-            <div id="logo-header">
-                <span class="logo-w">WDN WalterNight Design</span>
-                <span class="texto-w">Diseño Gráfico / Diseño Web / Diseño Apps</span>
-            </div>            
+        <header id="principal">
+            <span class="logo-w">WDN</span>
+            <span class="texto-w">WalterNight Design</span>            
         </header>
-        <main id="main">
-            <h1 >FORMULARIO DE INSCRIPCIÓN</h1>
-                <div >
+        <main id="formulario">
+            <h1 id="titulo">FORMULARIO DE INSCRIPCIÓN</h1>
+                <div id="texto-de-cabecera">
                     <p>A continuacion usted debera agregar sus datos de manera de poder tener un registro de su 
                     documentacion que brinde la informacion neccesaria para poder registrarlo en nuestra base
                     de datos y darle la mejor atencion posible.
@@ -23,76 +21,76 @@
                     <p>Es para nosotros muy importante darle la mejor atencion posible, con todas las comodidades 
                     que requiere durante su estadia. 
                     </p>
-               </div >
-               <div id="formulario">
-                <form action="">
-                    <div> <label for="Nombre">
-                        <span>Ingresa tu Nombre</span>
-                        <div>
-                            <span>*</span>
-                            <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre" autocomplete="name" required>
-                        </div>
-                    </label>
-                    </div>
-                    <div> <label for="Apellido">
-                        <span>Ingresa tu Apellido</span>
-                        <div>
-                            <span>*</span>
-                            <input type="text" id="Apellido" name="Apellido" placeholder="Tu apellido" autocomplete="name" required>
-                        </div>
-                    </label>
-                    </div>  
-                    <div> <label for="correo">
-                        <span>Ingresa tu Correo</span>
-                        <div>
-                            <span>*</span>
-                            <input type="email" id="correo" name="correo" placeholder="tucorreo@email.com" autocomplete="email" required>
-                        </div>
-                    </label>
-                    </div> 
-                    <div> <label for="pais">
-                        <span>Ingresa tu Pais</span>
-                        <div>
-                            <span>*</span>
-                            <input list="pais" autocomplete="country" required name="pais" placeholder="Tu Pais">
-                        </div>
-                        <datalist id="pais">
-                            <option value="Argentina"></option>
-                            <option value="Perú"></option>
-                            <option value="Chile"></option>
-                            <option value="Ecuador"></option>
-                            <option value="Venezuela"></option>
-                            <option value="Colombia"></option>
-                        </datalist>
-                    </label>
-                    </div>
-                    <div> <label for="Ciudad">
-                        <span>Ingresa tu Ciudad</span>
-                        <div>
-                            <span>*</span>
-                            <input list="Ciudad" autocomplete="country" required name="Ciudad" placeholder="Tu Ciudad">
-                        </div>
-                        </label>
-                    </div>
-                    <div> <label for="cd">
-                        <span>Ingresa tu codigo Postal</span>
-                        <div>
-                            <span>*</span>
-                            <input type="text" id="cd" name="cd" placeholder="100250" autocomplete="postal-code" required>
-                        </div>
-                    </label>
-                    </div>
-                    <input type="reset" value="limpiar">
-                    <input type="Submit"> 
-                </form>
                </div>
+            <form action="">
+                <div> <label for="Nombre">
+                    <span>Ingresa tu Nombre</span>
+                    <div>
+                        <span>*</span>
+                        <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre" autocomplete="name" required>
+                    </div>
+                </label>
+                </div>
+                <div> <label for="Apellido">
+                    <span>Ingresa tu Apellido</span>
+                    <div>
+                        <span>*</span>
+                        <input type="text" id="Apellido" name="Apellido" placeholder="Tu apellido" autocomplete="name" required>
+                    </div>
+                </label>
+                </div>  
+                <div> <label for="correo">
+                    <span>Ingresa tu Correo</span>
+                    <div>
+                        <span>*</span>
+                        <input type="email" id="correo" name="correo" placeholder="tucorreo@email.com" autocomplete="email" required>
+                    </div>
+                </label>
+                </div> 
+                <div> <label for="pais">
+                    <span>Ingresa tu Pais</span>
+                    <div>
+                        <span>*</span>
+                        <input list="pais" autocomplete="country" required name="pais" placeholder="Tu Pais">
+                    </div>
+                    <datalist id="pais">
+                        <option value="Argentina"></option>
+                        <option value="Perú"></option>
+                        <option value="Chile"></option>
+                        <option value="Ecuador"></option>
+                        <option value="Venezuela"></option>
+                        <option value="Colombia"></option>
+                    </datalist>
+                </label>
+                </div>
+                <div> <label for="Ciudad">
+                    <span>Ingresa tu Ciudad</span>
+                    <div>
+                        <span>*</span>
+                        <input list="Ciudad" autocomplete="country" required name="Ciudad" placeholder="Tu Ciudad">
+                    </div>
+                     </label>
+                </div>
+                <div> <label for="cd">
+                    <span>Ingresa tu codigo Postal</span>
+                    <div>
+                        <span>*</span>
+                        <input type="text" id="cd" name="cd" placeholder="100250" autocomplete="postal-code" required>
+                    </div>
+                </label>
+                </div>
+                <input type="reset" value="limpiar">
+                <input type="Submit"> 
+            </form>
             <p>Importante: debes llenar todos los campos señalados con un asterisco (*) para poder enviar correctamente el formulario</p>
           </div>
         </main>
-        <footer id="footer">
-            <p>Todos los derechos reservados WalterNight Design 2008 - 2020. toda la informacion ingresada en este formulario,
+        <footer>
+            <div id="footer">
+                <p>Todos los derechos reservados WalterNight Design 2008 - 2020. toda la informacion ingresada en este formulario,
                     segun la norma 32 del articulo "me lo invente" del año presente.
-            </p>
+                </p>
+            </div>
         </footer>
     </body>
 
