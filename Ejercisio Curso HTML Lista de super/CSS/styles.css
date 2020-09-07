@@ -14,7 +14,7 @@ body
 header
 {
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    background: pink;
+    background: #458779;
     height: 120px;
     width: 100%;
     line-height: 2.5em;
@@ -66,12 +66,19 @@ header
     color: turquoise;
 }
 
+.img-logo
+{
+    float: right;
+    width: 150px;
+    padding: 5px 50px 0 0;    
+}
+
 main
 {
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     background: white;
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     margin-top: 40px;
 }
@@ -105,9 +112,17 @@ footer
     font-size: 1em;
     color: white;
     text-align: center;
-    text-decoration: none;
     padding: 15px 0 0 0;
-    
+}
+
+.footer a
+{
+    color: white;
+}
+
+.p-2020
+{
+    text-decoration-line: underline;
 }
 
 /*--------------------------------------------------- COLOR DE LOS HIPERVINCULOS O LINKS ---------------------------------------------*/
@@ -115,6 +130,7 @@ footer
 a
 {
     color: #999;
+    text-decoration: none;
 }
 
 a:hover
@@ -147,7 +163,6 @@ ol
 {
     float: left;
     padding-left: 30px;
-    
 }
 
 #nav2
@@ -170,7 +185,8 @@ ol
 
             .main-nav__item a
             {
-                background: pink;
+                background: #458779;
+                color: white;
                 padding: 5px;
                 border-radius: 2px;
                 text-decoration: none;
@@ -178,7 +194,7 @@ ol
 
                 .main-nav__item a:hover
                 {
-                    color: white;
+                    color: pink;
                 }
 
                 .main-nav__item a:active
