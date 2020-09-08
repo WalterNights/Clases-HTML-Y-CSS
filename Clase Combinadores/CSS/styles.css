@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/* COMBINADOR ADJACENT SIBLING */
+
+/* h2 + p 
+{
+    color: red;
+} */
+
+/* --------------------------------- */
+
+/* COMBINADOR GENERAL SIBLING */
+
+/* h2 ~ p
+{
+    color: red;
+} */
+
+/* --------------------------------- */
+
+/* COMBINADOR CHILD */
+
+/* div>p
+{
+    color: red;
+} */
+
+/* --------------------------------- */
+
+div p
+{
+    color: red;
+}
