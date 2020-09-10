@@ -1,0 +1,29 @@
+/* .text-container
+{
+    font-size: 1.5em;
+}
+
+.text-container div
+{
+    font-size: 1.5em;
+} */
+
+*
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.text-container
+{
+    font-size: 1rem;
+}
+
+.text-container div
+{
+    font-size: 2rem;
+}
