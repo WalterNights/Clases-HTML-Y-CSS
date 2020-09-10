@@ -75,7 +75,7 @@ body
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6rem;
     color: white;
-    padding: 1.3rem;
+    padding: 1.5rem;
     position: absolute;
     margin: auto;
     left: 0;
@@ -93,18 +93,61 @@ body
 
 .wrap
 {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
+    color: white;
 }
 
 .widget
 {
-    width: 40%;
-    margin: 3.2rem;
+    width: 50%;
+    position: absolute;
+    margin: 15px auto;
+    left: 0;
+    right: 0;
 }
 
 .widget p
 {
     display: inline-block;
-    line-height: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.fecha
+{
+    background: rgba(0, 0, 0, .5);
+    width: 60%;
+    padding: 3px;
+    margin-bottom: 0.5rem; 
+    font-family: Oswald, arial;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    left: 0;
+    right: 0;  
+}
+
+.reloj
+{
+    background: rgba(0, 0, 0, .5);
+    width: 60%;
+    padding: 3px; 
+    font-family: Oswald, arial;
+    text-align: center;
+    font-size: 6rem;
+    margin: auto;
+    left: 0;
+    right: 0;  
+}
+
+.reloj .caja-segundos
+{
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm
+{
+    font-size: 2.5rem;
+    display: block;
 }
