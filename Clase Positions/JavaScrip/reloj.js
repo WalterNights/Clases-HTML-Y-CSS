@@ -5,23 +5,23 @@
             ampm,
             minutos = fecha.getMinutes (),
             segundos = fecha.getSeconds (),
-            diaSemana = fecha.getDate (),
+            diaSemana = fecha.getDay (),
             dia = fecha.getDay (),
             mes = fecha.getMonth (),
             year = fecha.getFullYear ();
 
-        var pHoras = document.getElementById ('horas'),
-            pAMPM = document.getElementById ('ampm'),
-            pMinutos = document.getElementById ('minutos'),
-            pSegundos = document.getElementById ('segundos'),
-            pDiaSemana = document.getElementById ('diaSemana'),
-            pDia = document.getElementById ('dia'),
-            pMes = document.getElementById ('mes'),
-            pYear = document.getElementById ('year');
+        var pHoras = document.getElementById('horas'),
+			pAMPM = document.getElementById('ampm'),
+			pMinutos = document.getElementById('minutos'),
+			pSegundos = document.getElementById('segundos'),
+			pDiaSemana = document.getElementById('diaSemana'),
+			pDia = document.getElementById('dia'),
+			pMes = document.getElementById('mes'),
+			pYear = document.getElementById('year');
             
 
         var semana = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
-        pDiaSemana.textContent = semana [diaSemana];
+		pDiaSemana.textContent = semana[diaSemana];
 
         pDia.textContent = dia;
 
