@@ -17,16 +17,13 @@ body
 
 .parent
 {
-    border: 2px black dotted;
     display: inline-block;
     color: white;
-    width: 416px;
+    width: 412px;
     height: 104px;
     /* ----------------bloque de centrado x, y-------------------- */
     position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
+    margin: 450px auto 0 auto;
     left: 0;
     right: 0;
     /* ----------------bloque de centrado x, y-------------------- */
@@ -35,8 +32,10 @@ body
 .box
 {
     display: inline-block;
-    background-color: red;
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    font-family: Oswald, arial;
+    font-size: 2rem;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -44,10 +43,10 @@ body
     height: 100px;
 }
 
-#two
+/* #two
 {
     background-color: blue;
-}
+} */
 
 .main-container
 {
@@ -70,7 +69,7 @@ body
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     width: 200px;
     height: 50px;
-    background-color: #ff56fb;
+    background-color: #39b43b;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6rem;
@@ -115,7 +114,7 @@ body
 
 .fecha
 {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
     width: 60%;
     padding: 3px;
     margin-bottom: 0.5rem; 
