@@ -1,0 +1,74 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* html
+{
+    font-size: 62.5%;
+} */
+
+/* --------------- AREA GRID */
+
+.grid
+{
+    height: 200px;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+    /* grid-column-gap: ; */
+    justify-items: center;
+}
+
+.header 
+{
+    width: 100%;
+    height: 20vh;
+    background: darkred;
+    grid-column-start: x0;
+    grid-column-end: x3;
+
+    /* Equivalente a */
+    grid-column: x0 /x3;
+}
+
+.sidebar
+{
+    width: 25vw;
+    min-height: 60vh;
+    background: black;
+    grid-row: y1 / y2;
+    color: white;
+}
+
+.sidebar2
+{
+    width: 25vw;
+    min-height: 60vh;
+    background: palevioletred;
+    grid-column: x2 / x3;
+    grid-row: y1 / y2;
+}
+
+.content
+{
+    width: 40vw;
+    background: orange;
+    padding: 20px;
+    grid-column: x1 / x2;
+    grid-row: y1 / y2;
+    color: white;
+}
+
+.footer
+{
+    width: 100%;
+    height: 20vh;
+    background: green;
+    grid-column: x0 / x3;
+    grid-row: y2;
+}
